@@ -1,6 +1,11 @@
 public class Random {
 
     public static void main(String[] args) {
+        ortalamaAl();
+    }
+
+    public static void ortalamaAl() {
+
         int randomNumber;
         double toplam=0;
         java.util.Random random= new java.util.Random();
